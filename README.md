@@ -22,7 +22,7 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Under Construction.
 
-## UnderConstruction Overview
+## Under Construction Overview
 
 When you manage a Craft website, you will almost certainly need to undertake routine maintenance, which may cause some downtime. Whether your website is in maintenance mode, repairing mode or you are developing your website from scratch, the Under construction plugin will help you to Install and configure an Under Construction Page in just a minute. This plugin is ideal for large websites and busy blogs. By using this plugin you may inform your visitors that a new post/page is under construction and will be available soon . A simple, no-nonsense under construction plugin for all those situations when you have to hide the site behind an Under Construction page for a while.
 
@@ -30,7 +30,7 @@ This free Craft CMS plugin is minimalistic and straightforward and allows you to
 
 
 
-## Configuring UnderConstruction
+## Configuring Under Construction
 
 After Installing Underconstruction  Go to UnderConstruction Plugin settings and enable the plugin.
 
