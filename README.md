@@ -1,4 +1,4 @@
-# UnderConstruction Plugin for Craft CMS 3.x
+# Under Construction Plugin for Craft CMS 3.x
 
 Show your Website on Maintainance Mode
 
@@ -38,4 +38,4 @@ After Installing Underconstruction  Go to UnderConstruction Plugin settings and 
 
 * Release it
 
-Brought to you by [dotsquares](https://dotsquares.com)
+Brought to you by [Dotsquares](https://dotsquares.com)
