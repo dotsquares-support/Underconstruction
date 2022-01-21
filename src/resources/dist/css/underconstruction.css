@@ -1,0 +1,187 @@
+
+
+/**
+ * Under Construction plugin for Craft CMS 3.x
+ *
+ *  Under Construction
+ *
+ * @link      https://www.dotsquares.com/
+ * @copyright Copyright (c) 2022 Dotsquares
+ */
+ 
+ body {
+  font-family: "Open Sans", sans-serif;
+  color: #444;
+  display: flex;
+    flex-direction: column;
+}
+ 
+
+a {
+  text-decoration: none;
+  color: #4f92af;
+}
+
+a:hover {
+  color: #5eb8df;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header { height: 80px; padding: 20px 0; position: relative; z-index: 10;    width: 100%; text-align: center;    background: #FFF !important; width: 100% !important; }
+#header .align-items-center{ width: 100%; display: inline-block; text-align: center;}
+#header .logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+#header .logo { margin-top: 6px; }
+#header .logo h1 a, #header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+
+body.construction{
+  display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -moz-flex-direction: column; flex-direction: column; -webkit-justify-content: space-between; justify-content: space-between;
+}
+
+#hero {
+  width: 100%;
+ 
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+     display: flex;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  z-index: 9;
+  /* countdown */
+}
+#hero .hero-container {
+    background: #FFF;
+    padding: 30px;
+    margin-top: auto;
+    border: solid #ff0f17;
+}
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: red;
+}
+#hero h2 {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+body.construction #footer{
+  margin-top: 0 !important;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+	color: red;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+	color: black;
+  }
+  #hero .php-email-form input {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 575px) {
+  #hero .countdown {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: #f7fafc;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {    margin: 0!important;
+  background: #0d182d!important;    border-radius: 0!important;
+  padding: 30px 0;
+  color: #fff;margin-top: auto!important;
+  font-size: 14px;
+}
+#footer .copyright {
+  text-align: center;
+}
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+#footer .credits a {
+  color: #72a8bf;
+}
+
+
+/*@media(max-width:767px){
+#hero .hero-container {  
+    margin-bottom: 33%; 
+}	*/
+	
+}

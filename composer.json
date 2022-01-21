@@ -1,0 +1,40 @@
+{
+  "name": "ds/craft-underconstruction",
+  "description": "A plugin for Craft CMS that helps you Display an Under Construction.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": ["craft",
+  	"cms",
+  	"craftcms",
+      	"craft-plugin",
+      	"underconstruction"],
+  "license": "MIT",
+  "authors": [
+  	{
+          "name": "Dotsquares",
+          "homepage": "https://dotsquares.com/"
+        }
+  ],
+  "support": {
+    "email": "namita.kaloya@dotsquares.com",
+    "issues": "https://github.com/developer/repo/issues?state=open",
+    "source": "https://github.com/developer/repo",
+    "docs": "https://github.com/developer/repo/blob/master/README.md"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ds\\underconstruction\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Under Construction",
+    "handle": "underconstruction",
+    "description": "Craft Cms Plugin to show website in underconstruction mode.",
+    "hasCpSection": false,
+    "hasSettings": true,
+    "class": "ds\\underconstruction\\Underconstruction"
+  }
+}

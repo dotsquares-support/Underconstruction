@@ -1,0 +1,56 @@
+{#
+/**
+ * UnderConstruction for Craft CMS 3.x
+ *
+ *
+ * @author    Dotsquares
+ * @copyright Copyright (c) 2022 Dotsquares
+ * @link      https://www.dotsquares.com/
+ 
+ */
+ #}
+ 
+{% extends '_layouts/base' %}
+{% import '_includes/forms' as forms %}
+
+{% set title = 'Under Construction' %}
+{% set bodyClass = 'construction' %}
+
+{% do view.registerAssetBundle('ds\\underconstruction\\assetbundles\\FrontEndAsset') %}
+
+{% block body %}
+
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <h1 class="text-light"><span>{{siteName}}</span></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+    </div>
+  </header><!-- End #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Under Construction</h1>
+      <h2>We're working hard to improve our website and we'll ready to launch after.</h2>
+  </section><!-- End Hero -->
+
+ <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>{{siteName}}</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       Under Construction Developed by <a href="https://www.dotsquares.com">Dotsquares</a>
+      </div>
+    </div>
+  </footer>
+
+  
+
+{% endblock %}

@@ -1,0 +1,32 @@
+{#
+/**
+ * UnderConstruction for Craft CMS 3.x
+ *
+ *
+ * @author    Dotsquares
+ * @copyright Copyright (c) 2022 Dotsquares
+ * @link      https://www.dotsquares.com/
+ 
+ */
+ #}
+{% import '_includes/forms' as forms %}
+
+{{ forms.lightswitchField({
+    first: true,
+    label: 'Enabled',
+    instructions: 'Whether the plugin should be enabled.',
+    id: 'enabled',
+    name: 'enabled',
+    value: 1,
+    on: settings.enabled,
+}) }}
+
+
+
+
+
+
+
+
+
+
