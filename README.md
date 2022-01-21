@@ -20,7 +20,7 @@ To install the plugin, follow these instructions.
 
         composer require ds/craft-underconstruction
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Facebook Feed.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Under Construction.
 
 ## UnderConstruction Overview
 
