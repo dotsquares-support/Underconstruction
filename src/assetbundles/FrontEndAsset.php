@@ -1,4 +1,15 @@
 <?php
+
+
+/**
+ * Under Construction plugin for Craft CMS 3.x
+ *
+ *  Under Construction
+ *
+ * @link      https://www.dotsquares.com/
+ * @copyright Copyright (c) 2022 Dotsquares
+ */
+
 namespace ds\underconstruction\assetbundles;
 
 use Craft;
