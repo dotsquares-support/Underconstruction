@@ -43,12 +43,7 @@ class Settings extends Model
 
      
     }
-    public function getFacebook()
-    {
-        return Craft::parseEnv(trim(Underconstruction::getInstance()->getSettings()->Facebook));
-
-     
-    }
+   
 
     
     
